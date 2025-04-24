@@ -77,7 +77,7 @@
       printf("Área: %s \n", (area1 > area2)? "Carta 1 Venceu" : "Carta 2 Venceu");
       printf("PIB: %s \n", (pib1 > pib2)? "Carta 1 Venceu" : "Carta 2 Venceu");
       printf("Pontos Turísticos: %s \n", (pturisticos1 > pturisticos2)? "Carta 1 Venceu" : "Carta 2 Venceu");
-      printf("Densidade Populacional: %s \n", (densidade1 > densidade2)? "Carta 1 Venceu" : "Carta 2 Venceu");
+      printf("Densidade Populacional: %s \n", (densidade1 < densidade2)? "Carta 1 Venceu" : "Carta 2 Venceu");
       printf("PIB per Capita: %s \n", (percapita1 > percapita2)? "Carta 1 Venceu" : "Carta 2 Venceu");
       printf("Super Poder: %s \n", (superpoder1 > superpoder2)? "Carta 1 Venceu" : "Carta 2 Venceu");
       return 0;
